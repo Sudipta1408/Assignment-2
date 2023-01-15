@@ -1,0 +1,385 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+/* banner styles */
+
+/* navigation part styles */
+.banner{
+    background-color:rgba(255, 144, 14, 0.1); ;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 120px 120px 120px ;
+}
+.heading{
+   font-weight: 700;
+   font-size: 45px;
+   color: #131313;
+} 
+.navigation a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-left: 40px;
+}
+
+/* main banner section styles */
+
+.container{
+    align-items: center;
+    text-align: center;
+
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 33px;
+}
+.banner-description{
+    color: #727272;
+
+}
+.banner-image img{
+    width: 1440px;
+    height: 700px;
+    margin: 50px 0px;
+}
+.primary-button{
+    background-color:#FF900E;
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* main section styles */
+.quick-features{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin:50px 15%;
+}
+.grid-view{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 auto;
+        row-gap: 24px;
+        column-gap: 24px;
+    
+}
+.grid-view img{
+    width: 250px;
+    height: 250px;
+}
+.feature-heading-banner-description{
+    font-weight: 500;
+    font-size: 65px;
+    color: #727272;
+    margin-bottom: 24px;
+}
+.feature-heading-banner-description .black{
+        color: #131313;
+}
+.feature-heading-banner-description .orange{
+        color: #FF900E;
+}
+
+/* features you will love section styles */
+
+.arch-feature{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.arch-feature h3{
+    border-left: 5px solid #FF900E;
+    padding: 0 10px;
+}
+.arch-feature p{
+    margin: 24px 0;
+}
+.feature{
+    width: 450px;
+    height: 101px;
+    border: 0;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.feature-heading{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-top: auto;
+}
+
+.architect img{
+    width: 608px;
+    height: 882px;
+}
+.architect button{
+    width: 200px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 10px;
+    background: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    margin: -500px 0 0 -20px;
+}
+.architect button .experience{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* facts section styles */
+
+.facts-container{
+    margin-left: 240px;
+    margin-top: 130px;
+}
+.facts-container, .heading{
+    margin-bottom: 24px;
+}
+.work-details{
+    display: flex;
+    justify-content: center;
+    gap:125px;
+    margin-top: 100px;
+}
+.heading{
+    margin-top: 10px;
+}
+.work-box, .work-box-2, .work-box-3, .work-box-4{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding:20px 30px 10px 30px;
+
+}
+.work-box:hover, .work-box-3:hover{
+    transform:rotate(360deg);
+    background-color: rgb(196, 252, 67);
+    transition: 1s ease-in-out;
+}
+.work-box-2:hover, .work-box-4:hover{
+    transform:rotate(-360deg);
+    background-color: rgb(187, 169, 11);
+    transition: 1s ease-in-out;
+}
+
+/* extra section styles */
+
+.demo-job{
+    background-color:rgba(255, 144, 14, 0.1);
+    width: 1000px; 
+    margin: 0 auto;
+    padding: 0 50px 50px 50px;
+    border-radius: 15px;
+}
+.demo-job h3{
+    text-align: center;
+    margin-top: 100px;
+    
+    padding-top: 20px;
+}
+.our-projects-demo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.our-projects-demo img{
+    border-radius: 8px;
+    padding: 2px;
+}
+.our-projects-demo img:hover{
+    transform:scale(1.3,1.3);
+    transform-origin: bottom left;
+    transition: .5s;
+}
+/* sponsors related styles */
+
+.sponsors{
+    text-align: center;
+    margin-top: 180px;
+}
+.sponsors-details h3 {
+margin-bottom: 24px;
+}
+.sponsors-details p{
+    margin-bottom: 50px;
+}
+.sponsors-images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    filter: grayscale(100%);
+}
+
+/* footer section styles */
+
+.footer{
+    margin: 150px auto;
+    width: 1000px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.footer p{
+    text-align: center;
+    padding: 38px 0;
+    font-size: 20px;
+    color: #424242;
+}
+
+/* media queries */
+
+/* mobile device */ 
+
+
+@media screen and (max-width:576px) {
+    
+    .nav{
+        display: flex;
+        padding: 20px 10px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .nav h3{
+        font-size: 40px;
+    }
+    
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+    }  
+    .navigation a{
+        margin-left: 10px;
+    }
+    .banner-heading{
+        font-size:50px;
+        margin-bottom: 33px;
+    }
+    .banner-description{
+        font-size: 14px;
+    }
+    .banner-image img{
+        width: 300px;
+        height: 250px;
+    }
+    .quick-features{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .grid-view{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .arch-feature{
+        display: flex;
+        
+        flex-direction: column;
+        
+        align-items: center;
+        width: 80%;
+        font-size: 40px;
+        margin: 130px 10px;
+    }
+    .feature {
+        width: 250px;
+        height: 101px;
+        border: 0;
+        box-shadow: 0px 4px 30px rgb(0 0 0 / 6%);
+        border-radius: 8px;
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+    .feature-heading, .architect img{
+        width: 100%;
+    }
+    .architect img{
+       margin-left: 10%;
+       height: 60%;
+    }
+    .architect button{
+     margin-left: 5%;
+     height: 80px;
+     width: 150px;
+     font-size: 30px;
+    }
+    .experience{
+        font-size: 10px;
+    }
+    
+    .facts-container{
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+    .work-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 100px;
+        margin-left: 22%;
+        
+    }
+    
+    .demo-job{
+        width: 70%;
+    }
+    .our-projects-demo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 5px;
+    }
+    .our-projects-demo img:hover{
+        transform:scale(1.3);
+        transform-origin:left, right;
+        transition: .5s;
+    }
+    
+    .sponsors-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        filter: grayscale(100%);
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer p{
+       padding: 30px;
+    }  
+    
+}
+.hide{
+        display: none;
+    }
